@@ -11,6 +11,7 @@ public class ProfilePageSteps {
 	public ProfilePageSteps(TestContext context) {
 		testContext = context;
 		profilePage = testContext.getPageObjectManager().getProfilePage();
+                System.out.println("updated");
 	}
 	
 }
